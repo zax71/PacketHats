@@ -15,10 +15,14 @@ public final class PacketHats extends JavaPlugin {
     public static PacketHats plugin;
     public final TextComponent prexix = Component.text("[")
             .color(NamedTextColor.DARK_GRAY)
-            .append(Component.text("PacketHats"))
-            .color(NamedTextColor.GREEN)
-            .append(Component.text("] "))
-            .color(NamedTextColor.DARK_GRAY);
+            .append(
+                    Component.text("PacketHats")
+                    .color(NamedTextColor.GREEN)
+            )
+            .append(
+                    Component.text("]")
+                    .color(NamedTextColor.DARK_GRAY)
+            ).append(Component.text(" ").color(NamedTextColor.WHITE));
 
     @Override
     public void onEnable() {
