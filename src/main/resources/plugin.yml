@@ -2,7 +2,7 @@ name: PacketHats
 version: '${project.version}'
 main: me.zax71.packethats.PacketHats
 api-version: 1.18
-prefix: [ Packet Hats ]
+prefix: '§6Packet Hats'
 depend: [ ProtocolLib ]
 authors: [ Zax71 ]
 description: Put hats on players heads and preserve the head slot! Presistent across relog too
